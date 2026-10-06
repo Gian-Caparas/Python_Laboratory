@@ -1,0 +1,13 @@
+Q1. How does Python's program structure differ from the language you know best (main function, braces, semicolons, type declarations)?
+- Python uses indentation instead of braces {}, usually does not need semicolons, and does not require type declarations. A main() function is optional.
+
+Q2. What are int, float, str, and bool? What does type() do?
+- int = whole numbers, like 5
+- float = decimal numbers, like 5.5
+- str = text, like "Hello"
+- bool = True or False
+- type() tells you the data type of a value.
+
+Q3. Try "5" + 5 and int("5") + 5 in the interpreter. What happens in each case, and why?
+- "5" + 5 → Error, because Python cannot directly add a string and an integer.
+- int("5") + 5 → 10, because int("5") converts the string "5" into the number 5.
